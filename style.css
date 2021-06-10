@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+.grid {
+    width: 400px;
+    height: 360px;
+}
+
+#home {
+    background-color: aquamarine;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+}
+
+iframe {
+    height: 300px;
+}
+
+#grid {
+    background-color: plum;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    background: grey;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links: hover {
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: dodgerblue;
+}
